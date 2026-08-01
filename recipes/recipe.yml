@@ -17,8 +17,8 @@ modules:
         - gnome-keyring
         - xfce-polkit
         - fuse-libs
-        - atuin
         - alacritty
+        - atuin
         - bat
         - btop
         - direnv
@@ -34,5 +34,6 @@ modules:
         - ripgrep
         - starship
         - ugrep
+        - wtype
         - zellij
         - zoxide
