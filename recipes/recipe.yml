@@ -11,12 +11,14 @@ modules:
   - type: dnf
     install:
       packages:
+        # core
         - niri
         - mako
         - nautilus
         - gnome-keyring
         - xfce-polkit
         - fuse-libs
+        # shell
         - alacritty
         - atuin
         - bat
@@ -27,13 +29,15 @@ modules:
         - fish
         - helix
         - ncdu
-        - nix-core
-        - podlet
-        - podman-compose
-        - quickemu
         - ripgrep
         - starship
         - ugrep
         - wtype
         - zellij
         - zoxide
+        # pkgs
+        - nix-core
+        - podlet
+        - podman-compose
+        - qemu-img
+        - qemu-kvm
