@@ -5,10 +5,10 @@ description: DeVelox's custom BlueBuild image.
 base-image: ghcr.io/blue-build/base-images/fedora-base-nvidia-open
 image-version: latest
 modules:
-  - type: script
-    snippets:
-      - "dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release"
   - type: dnf
+    repos:
+      files:
+        - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
     install:
       packages:
         # core
