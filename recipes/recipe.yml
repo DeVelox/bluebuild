@@ -19,25 +19,21 @@ modules:
         - xfce-polkit
         - fuse-libs
         # shell
-        - alacritty
-        - atuin
-        - bat
-        - btop
-        - direnv
-        - eza
-        - fd-find
         - fish
         - helix
-        - ncdu
+        - fd-find
         - ripgrep
-        - starship
+        - zoxide
+        - direnv
         - ugrep
         - wtype
-        - zellij
-        - zoxide
+        - ncdu
+        - btop
+        - bat
+        - eza
         # pkgs
-        - nix-core
         - podlet
         - podman-compose
-        - qemu-img
         - qemu-kvm
+        - qemu-img
+        - nix-core
